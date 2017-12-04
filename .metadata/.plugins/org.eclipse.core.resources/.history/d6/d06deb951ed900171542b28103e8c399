@@ -27,7 +27,6 @@ public static void main (String[] args)
 	
 	System.out.println("So your name is "+name+", you are "+age+" years old, you're "+feet+"'"+inches+", and you weigh "+ weight+" pounds.");
 	keyboard.close();
-	
 	}
 	
 }
