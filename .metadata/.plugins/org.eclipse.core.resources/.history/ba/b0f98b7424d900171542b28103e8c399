@@ -15,7 +15,7 @@ public class DumbCalculator
 		System.out.print("What is the third number?  ");
 		third= keyboard.nextDouble();
 		
-		System.out.println("The average of the three numbers is "+((first+second+third)/3));
+		System.out.println("The average of the three numbers is   "+((first+second+third)/3));
 		keyboard.close();
 	}
 }
