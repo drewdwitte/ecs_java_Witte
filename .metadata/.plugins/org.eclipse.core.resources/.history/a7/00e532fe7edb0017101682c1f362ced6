@@ -1,0 +1,14 @@
+package whileloops;
+import java.util.Scanner;
+import java.util.Random;
+public class KeepGuessing 
+{
+	Random r = new Random();
+	 
+	int x = 1 + r.nextInt(10);
+	 Scanner keyboard = new Scanner(System.in);
+	 
+	 System.out.println("");
+	 
+	 
+}
