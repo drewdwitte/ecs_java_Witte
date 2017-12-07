@@ -6,7 +6,7 @@ public class Magic8Ball
 	{
 		Random r = new Random();
 		 
-		int choice = 1 + r.nextInt(20);
+		int choice = 1 + r.nextInt(15);
 		String response = "";
  
 		if ( choice == 1 )
