@@ -21,6 +21,7 @@ public class Keepguessingcounter
 		 System.out.print("Your guess: ");
 		 y=keyboard.nextInt();
 	 } while(x!=y);
+	 System.out.println("That's right! You're a good guesser.");
 	
 	}
 }
