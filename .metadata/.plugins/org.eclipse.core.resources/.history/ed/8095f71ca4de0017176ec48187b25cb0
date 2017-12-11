@@ -1,0 +1,10 @@
+package forloops;
+import java.util.Scanner;
+public class CountingMachineRevisited 
+{
+	public static void main(String[] args)
+	{
+		
+		
+	}
+}
