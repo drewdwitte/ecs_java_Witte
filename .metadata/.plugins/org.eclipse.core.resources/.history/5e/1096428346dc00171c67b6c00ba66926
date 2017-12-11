@@ -44,7 +44,7 @@ public class HiLowLimited
 		}
 		if(tries==7)
 		{
-			System.out.println("You didn't guess it in seven tries. you lose.");
+			System.out.println("You didn't guess it in seven tries. you lose");
 		}
 	
 	}	

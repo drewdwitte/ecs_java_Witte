@@ -1,0 +1,22 @@
+package whileloops;
+import java.util.Scanner;
+public class Collatz 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard = new Scanner(System.in);
+		int x;
+	
+	
+		 System.out.println("Let's create a COLLAT SEQUENCE!");
+		 System.out.println("");
+		 System.out.println("Rules");
+		 System.out.println("If the number is even, divide by two.");
+		 System.out.println("If the number is odd, multiply by 3 and add 1");
+		 System.out.println("Repeat this until you reach one");
+		 
+		 System.out.print("Starting number: ");
+		 x=keyboard.nextInt();
+		 
+	}
+}
