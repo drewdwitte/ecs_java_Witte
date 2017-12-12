@@ -12,25 +12,22 @@ public class FizzBuzz
 				
 		for(n=1;n<=100;n=n+1)
 		{
-			if(n%3==0 && n%5==0)
-			{
-			System.out.println("FizzBuzz");
-			}
-		
+			
 			if(n%3==0)
 			{
 				
-				System.out.println("Fizz");
+				
+				System.out.print("Fizz"+(-n));
 			}
 			
-			 if(n%5==0)
+			if(n%5==0)
 			{
-				System.out.println("Buzz ");
+				System.out.print("Buzz ");
 			}
-			if(n%3!=0 && n%5!=0)
-			{
+			
+			
 			System.out.println(n);
-			}
+			
 			
 		}
 		
