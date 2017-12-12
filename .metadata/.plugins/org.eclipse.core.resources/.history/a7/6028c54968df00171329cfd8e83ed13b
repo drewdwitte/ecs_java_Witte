@@ -1,0 +1,26 @@
+package forloops;
+import java.util.Scanner;
+public class AddingValuesForLoop 
+{
+	public static void main(String[] args)
+	{
+		Scanner keyboard= new Scanner(System.in);
+		
+		int x,n;
+		
+	
+		System.out.print("Number: ");
+			n=keyboard.nextInt();
+			
+			
+			for(x=1;x<=n;x=x+1)
+			{
+				System.out.print(x+" ");
+				
+			}
+			System.out.println("The sum is  "+(x));
+		
+			
+	}
+	
+}

@@ -1,0 +1,26 @@
+package forloops;
+
+public class FizzBuzz 
+{
+	public static void main(String[] args)
+	{
+		int n;
+		String fizz;
+		
+		for(n=1;n<=100;n=n+1)
+		{
+			if(n%3==0)
+			{
+				System.out.println("Fizz");
+			}
+			
+			
+			
+			System.out.println(n);
+			
+			
+		}
+		
+	}
+	
+}
