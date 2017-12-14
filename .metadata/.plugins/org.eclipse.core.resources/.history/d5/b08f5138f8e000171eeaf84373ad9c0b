@@ -12,12 +12,12 @@ public class MorefillInMethods
 
 		System.out.println();
 		System.out.println("Some random numbers, if you please: ");
-		int lo, hi, val1 = superrand(1,10), val2 = superrand(10,1);
+		int lo, hi, val1 = 999, val2 = 999;
 		lo = 1;
 		hi = 10;
-		
+		superrand(lo,hi);
 		System.out.println("First: " + val1 );
-		  // this time, put hi first
+		// superrand();  // this time, put hi first
 		System.out.println("Second: " + val2 );
 		if ( val1 == val2 )
 			System.out.println("Hey!  They were the same!");
@@ -27,27 +27,26 @@ public class MorefillInMethods
 		System.out.println();
 		System.out.print("More counting, but this time not by ones: ");
 		// count from 2 to 8 by 2s
-		stepcount(2,8,2);
-		System.out.println(" ");
+		// stepcount();
 		// count from 10 to 2 by 2s
-		 stepcount(10,2,2);
+		// stepcount();
 
 		System.out.println();
 		System.out.println("Let's figure a project grade.");
-		int a=4,b=3,c=4,d=5,e=2,f=1, result=project_grade(4,3,4,5,2,1);
-		 project_grade(4,3,4,5,2,1);
+		int a=4,b=3,c=4,d=5,e=2,f=1, result=999;
+		// project_grade();
 		System.out.println("434521 -> " + result );
 
 		System.out.println();
 		System.out.print("Finally, some easy ones.");
 
-		String nombre = get_name();
-		
+		String nombre = "ERROR";
+		// get_name();
 		System.out.println("Hi, " + nombre );
 
 		System.out.println();
 		System.out.println("Do you feel lucky, punk?");
-		crash();
+		// crash();
 		System.out.println();
 	}
 
@@ -73,8 +72,8 @@ public class MorefillInMethods
 
 
 
-
-	public static int stepcount( int first, int last, int step )
+/*
+	public static ???? stepcount( ???? )
 	// Parameters are:
 	//     int first;
 	//     int last;
@@ -103,13 +102,13 @@ public class MorefillInMethods
 			}
 		}
 
-		return x;
+		return ??;
 	}
+*/
 
 
-
-
-	public static int project_grade( int p1, int p2, int p3, int p4, int p5, int p6 )
+/*
+	public static ???? project_grade( ???? )
 	// Parameters are:
 	//     int p1, p2, p3, p4, p5, p6;
 	{
@@ -126,13 +125,13 @@ public class MorefillInMethods
 		overall_grade = overall_grade + ( p5 * 1 );   // one point per point
 		overall_grade = overall_grade + ( p6 * 1 );   // one point per point
 
-		return overall_grade;
+		return ??;
 	}
+*/
 
 
-
-
-	public static String get_name(  )
+/*
+	public static ???? get_name( ???? )
 	// No parameters.
 	{
 		// finds out the user's name
@@ -142,13 +141,13 @@ public class MorefillInMethods
 		System.out.print("Please enter your name: ");
 		name = keyboard.next();
 
-		return name;
+		return ??;
 	}
+*/
 
 
-
-
-	public static String crash(  )
+/*
+	public static ???? crash( ???? )
 	// No parameters.
 	{
 		// displays "you win" or "you lose".  You lose 90% of the time.
@@ -167,8 +166,8 @@ public class MorefillInMethods
 
 		System.out.print("you " + magic_word);
 
-		return magic_word;
+		return ??;
 	}
-
+*/
 
 }

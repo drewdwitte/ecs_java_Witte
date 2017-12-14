@@ -12,12 +12,12 @@ public class MorefillInMethods
 
 		System.out.println();
 		System.out.println("Some random numbers, if you please: ");
-		int lo, hi, val1 = superrand(1,10), val2 = superrand(10,1);
+		int lo, hi, val1 = 999, val2 = 999;
 		lo = 1;
 		hi = 10;
-		
+		//superrand(a,b);
 		System.out.println("First: " + val1 );
-		  // this time, put hi first
+		 //superrand();  // this time, put hi first
 		System.out.println("Second: " + val2 );
 		if ( val1 == val2 )
 			System.out.println("Hey!  They were the same!");
@@ -34,20 +34,20 @@ public class MorefillInMethods
 
 		System.out.println();
 		System.out.println("Let's figure a project grade.");
-		int a=4,b=3,c=4,d=5,e=2,f=1, result=project_grade(4,3,4,5,2,1);
+		int a=4,b=3,c=4,d=5,e=2,f=1, result=999;
 		 project_grade(4,3,4,5,2,1);
 		System.out.println("434521 -> " + result );
 
 		System.out.println();
 		System.out.print("Finally, some easy ones.");
 
-		String nombre = get_name();
-		
+		String nombre = "ERROR";
+		// get_name();
 		System.out.println("Hi, " + nombre );
 
 		System.out.println();
 		System.out.println("Do you feel lucky, punk?");
-		crash();
+		// crash();
 		System.out.println();
 	}
 
@@ -131,8 +131,8 @@ public class MorefillInMethods
 
 
 
-
-	public static String get_name(  )
+/*
+	public static ???? get_name( ???? )
 	// No parameters.
 	{
 		// finds out the user's name
@@ -142,13 +142,13 @@ public class MorefillInMethods
 		System.out.print("Please enter your name: ");
 		name = keyboard.next();
 
-		return name;
+		return ??;
 	}
+*/
 
 
-
-
-	public static String crash(  )
+/*
+	public static ???? crash( ???? )
 	// No parameters.
 	{
 		// displays "you win" or "you lose".  You lose 90% of the time.
@@ -167,8 +167,8 @@ public class MorefillInMethods
 
 		System.out.print("you " + magic_word);
 
-		return magic_word;
+		return ??;
 	}
-
+*/
 
 }
