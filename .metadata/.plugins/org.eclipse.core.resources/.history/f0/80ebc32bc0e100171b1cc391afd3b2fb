@@ -1,0 +1,39 @@
+package methods;
+import java.util.Scanner;
+public class AreaCalculator 
+{
+
+	public static void main(String[] args)
+	{
+		Scanner keyboard= new Scanner(System.in);
+		
+		int shape;
+		
+		System.out.println("Shape Area Calculator (c) 2017 Drew Witte ECS");
+		System.out.println("----------------------------------------------");	
+		System.out.println("1) Triangle");
+		System.out.println("2) Rectangle");
+		System.out.println("3) Square");
+		System.out.println("4) Circle");
+		System.out.println("5) Quilt");	
+		System.out.println("Which Shape: ");
+		 shape=keyboard.nextInt();
+		 
+			
+	}
+	
+	public static int shape(int base, int height)
+	{
+		int shape=1;
+		int area;
+		
+		System.out.println("Base: ");
+		
+		
+		return shape;
+		 
+	}
+	
+	
+	
+}
